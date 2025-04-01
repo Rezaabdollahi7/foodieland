@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
   --background: #ffffff;
@@ -11,6 +11,10 @@
 
   --font-inter: var(--font-inter);
   --font-lobster: var(--font-lobster);
+}
+
+@theme {
+  --color-lightblue: #e7fafe;
 }
 
 body {

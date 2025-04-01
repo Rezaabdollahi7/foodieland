@@ -1,20 +1,51 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+	--background: #ffffff;
+	--foreground: #171717;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--color-accent: #E7FAFE;
+	--color-black-60: #0009;
+	--color-black-5: #0000000c;
 
-  --font-inter: var(--font-inter);
-  --font-lobster: var(--font-lobster);
+	--font-inter: var(--font-inter);
+	--font-lobster: var(--font-lobster);
+}
+
+@utility wrapper {
+	display: grid;
+	grid-template-columns:
+		1fr min(1440px, 100%) 1fr;
+
+	&>* {
+		grid-column: 2;
+	}
+}
+
+@utility full-bleed {
+	width: 100%;
+	grid-column: 1 / 4;
+}
+
+@utility embla {
+	overflow: hidden;
+}
+
+@utility embla-container {
+	display: flex;
+}
+
+@utility embla-slide {
+	flex: 0 0 100%;
+	min-width: 0;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-inter), sans-serif;
+	background: var(--background);
+	color: var(--foreground);
+	font-family: var(--font-inter), sans-serif;
 }

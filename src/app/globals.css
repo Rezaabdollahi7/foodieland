@@ -15,6 +15,11 @@
 
 @theme {
   --color-lightblue: #e7fafe;
+  --color-darkgray: #708246;
+  --color-lightgreen: #6cc63f;
+  --color-lightred: #cc261b;
+  --color-lightyellow: #f09e00;
+  --color-black: #000000;
 }
 
 body {

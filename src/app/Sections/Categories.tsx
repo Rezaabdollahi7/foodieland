@@ -2,7 +2,7 @@ import CategoriesItems from '@/consts/CategoriesItems';
 import CategoriesCard from '@/components/CategoryCard';
 export default function Categories() {
   return (
-    <section className="mx-auto flex flex-col gap-12 px-4 sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl">
+    <section className="mx-auto my-32 flex flex-col gap-12 px-4 sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl">
       <div className="cat-header flex w-full items-center justify-between">
         <h3 className="text-xl font-semibold sm:text-3xl lg:text-4xl">
           Categories

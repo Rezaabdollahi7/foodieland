@@ -18,7 +18,7 @@ export default function CookWithUs() {
           tempor incididunt ut labore et dolore magna aliqut enim ad minim{' '}
         </p>
         <a
-          href="/"
+          href="#"
           className="rounded-xl bg-black px-8 py-3 text-sm font-semibold text-white"
         >
           Learn More
